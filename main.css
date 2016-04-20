@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+.top, .content, .lateral, .final {
+	padding: 1em 2em;
+}
+.content, .lateral, .final {
+	float: left;
+	box-sizing: border-box;
+}
+.top {
+	background-color: coral;
+	height: 100px;
+}
+.content {
+	width: 60%;
+}
+.lateral {
+	width: 40%;
+	background-color: aqua;
+	height: 500px;
+}
+.post {
+	background-color: gray;
+	height: 100px;
+	margin-bottom: 1em;
+}
+.final {
+	width: 100%;
+	background-color: #000;
+	height: 50px;
+}
