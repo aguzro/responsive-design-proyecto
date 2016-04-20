@@ -30,3 +30,34 @@ body {
 	background-color: #000;
 	height: 50px;
 }
+
+@media screen and (min-width: 780px) and (max-width: 1280px){
+	.top {
+		background-color: #464630;
+	}
+	.content, .lateral {
+		width: 50%
+	}
+
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+	.top {
+		background-color: #464630;
+	}
+	.content, .lateral {
+		width: 100%
+	}
+}
+@media screen and (min-width: 480px){
+
+	.top {
+		height: 80px;
+	}
+	.content {
+		background-color: blue;
+	}
+	.content, .lateral {
+		width: 100%;
+	}
+}
