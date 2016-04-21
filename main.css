@@ -33,7 +33,7 @@ body {
 
 @media screen and (min-width: 780px) and (max-width: 1280px){
 	.top {
-		background-color: #464630;
+		background-color: #469630;
 	}
 	.content, .lateral {
 		width: 50%
